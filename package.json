@@ -18,24 +18,24 @@
     "url": "https://github.com/dyygtfx/mammoth-style.git"
   },
   "dependencies": {
-    "bluebird": "~3.4.0",
-    "sax": "~1.1.1",
-    "underscore": "~1.6.0",
+    "bluebird": "~3.5.4",
+    "sax": "~1.2.4",
+    "underscore": "~1.9.1",
     "lop": "~0.4.0",
     "argparse": "~1.0.3",
-    "jszip": "~2.5.0",
-    "xmlbuilder": "~2.6.4",
-    "path-is-absolute": "^1.0.0",
-    "clone": "~1.0.2"
+    "jszip": "~3.2.1",
+    "xmlbuilder": "~13.0.1",
+    "path-is-absolute": "^2.0.0",
+    "clone": "~2.1.2"
   },
   "devDependencies": {
-    "mocha": "~2.2.5",
-    "browserify": "~13.0.1",
+    "mocha": "~6.1.4",
+    "browserify": "~16.2.3",
     "browserify-prepend-licenses": "~1.0.0",
     "duck": "~0.1.11",
-    "uglify-js": "~2.4.8",
-    "temp": "~0.7.0",
-    "eslint": "2.13.1"
+    "uglify-js": "~3.5.12",
+    "temp": "~0.9.0",
+    "eslint": "5.16.0"
   },
   "browser": {
     "./lib/unzip.js": "./browser/unzip.js",
